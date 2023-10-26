@@ -9,7 +9,6 @@ import { FIREBASE_AUTH } from "./firebaseConfig";
 
 const Stack = createNativeStackNavigator();
 const InsideStack = createNativeStackNavigator();
-
 function InsideLayout() {
   return (
     <InsideStack.Navigator>
@@ -43,7 +42,6 @@ export default function App() {
             options={{ headerShown: false }}
           />
         )}
-        ;
       </Stack.Navigator>
     </NavigationContainer>
   );
